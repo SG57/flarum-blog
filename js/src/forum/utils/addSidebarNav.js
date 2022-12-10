@@ -7,7 +7,7 @@ export default function addSidebarNav() {
     if (app.forum.attribute('blogAddSidebarNav') && app.forum.attribute('blogAddSidebarNav') !== '0') {
       items.add(
         'blog',
-        <LinkButton icon="fas fa-comment" href={app.route('blog')}>
+        <LinkButton icon="fas fa-blog" href={app.route('blog')}>
           {app.translator.trans('v17development-flarum-blog.forum.blog')}
         </LinkButton>,
         15
